@@ -2,7 +2,7 @@
 
 // Exercise 1
 
-/* const target = Math.floor(Math.random() * 9 + 1);
+ const target = Math.floor(Math.random() * 9 + 1);
 let guess = null;
 
 while (guess !== target) {
@@ -15,19 +15,6 @@ while (guess !== target) {
             alert("Lower..."); 
         } else {
             console.log(`Target: ${target} Guess: ${guess}`);
-            console.log("You guessed the right number!"); 
+            alert("You guessed the right number!"); 
         }
     }
-*/
-
-// Exercise 2
-
-function generateRandomArray() {
-    for (i = 0; i <1; i++) {
-    console.log(Array.from ({
-        length: 7
-    }, () =>  Math.floor(Math.random() * 100) +1))
-    }
-   }
-
-generateRandomArray(); 
