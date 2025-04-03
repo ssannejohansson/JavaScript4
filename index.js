@@ -2,7 +2,9 @@
 
 // Exercise 1
 
- const target = Math.floor(Math.random() * 9 + 1);
+
+function guessNumberGame () {
+const target = Math.floor(Math.random() * 10 + 1);
 let guess = null;
 
 while (guess !== target) {
@@ -18,3 +20,6 @@ while (guess !== target) {
             alert("You guessed the right number!"); 
         }
     }
+}
+
+guessNumberGame ();
